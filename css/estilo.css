@@ -21,7 +21,6 @@ body {
 h1 {
     color: #d4d744 ;
     margin: 90px;
-    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
     font-size: 100px;
     text-shadow: 2px 2px 4px #000;
 }
@@ -58,7 +57,6 @@ a {
 
 .menu h2 {
     color: #C9DCB3;
-    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
     font-size: 30px;
     margin-left: 20px;
     margin-top: 20px;
@@ -84,7 +82,6 @@ a {
 
 .quem-sou h2 {
     color: #C9DCB3;
-    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -92,13 +89,13 @@ a {
 #botao {
     background-color: #C9DCB3;
     color: #000000;
-    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: 'Arcane';
 }
 
 #botao:hover {
@@ -128,7 +125,6 @@ a {
 
 .Passa-tempo h2 { 
     color: #1D3354;
-    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -191,7 +187,6 @@ a {
 .Destinos h2 {
     color: #aa7f07;
     text-shadow: #000 2px 2px;
-    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -200,7 +195,6 @@ a {
     text-shadow: #000 2px 2px;
     font-size: 40px;
     text-align: justify;
-    font-family: 'Arcane', Times, serif;
     
 }
 .Destinos .link-imagem a {
@@ -224,14 +218,12 @@ a {
 }
 .Site span {
     color: #95cbc6;
-    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
     font-size: 20px;
     font-weight: bold 5px;
 }
 .Site h2 {
     color: #aa7f07;
     text-shadow: #fff 2px 2px;
-    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -244,7 +236,6 @@ a {
 
 .botao {
     color: #95cbc6;
-    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
     font-size: 20px;
    
 }
@@ -255,45 +246,3 @@ a {
     font-size: 20px;
     margin: 0;
 }
-
-/*
- padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-
-
-
-
-
-
-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid #364652;
-}
-
-/*
-h2 {
-    color: #000;;
-    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
-    
-}
-
-/* paleta de cores
-#364652
-#071108
-#BFB1C1
-#B5BEC6
-#000F18
-
-arcane:
-#c64e1b
-#8b582f
-#97647e
-#95cbc6
-#ab95cb
-colorideas.net
-*/
