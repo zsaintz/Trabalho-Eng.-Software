@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'Arcane';
+    src: url(Arcane\ Nine.otf) format('truetype');
+}
+
+body {
+    background-color: #c6d9b0b9;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Arcane', Times, serif
+}
+.topo {
+    background-color: #95cbc6;
+    border:#95cbc6 2px solid;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 150px;
+    box-shadow: #000000 5px 5px 25px;
+}
+
+h1 {
+    color: #d4d744 ;
+    margin: 90px;
+    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+a {
+    color: #C9DCB3;
+    text-shadow: #000000 2px 2px 4px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: Arcane;
+    
+}
+
+.menu {
+    height: 100px;
+    box-shadow: #000000 5px 5px 25px;
+    background-color: #8b582f;
+    margin: 0 auto;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.menu a {
+    background-color: #8c8f66ad;
+    border: #8c8f66ad 2px solid;
+    border-radius: 5px;;
+    font-size: 20px;
+    transition: all 1s;
+}
+
+.menu h2 {
+    color: #C9DCB3;
+    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+
+.quem-sou {
+    background-color: #97647e;
+    border: #97647e 2px solid;
+    box-shadow: #000000 5px 5px 25px;;
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    margin: 50px auto;
+}
+
+.quem-sou p {
+    padding: 10px;
+    font-size: 20px;
+    color: #C9DCB3;
+    text-align: justify;
+}
+
+.quem-sou h2 {
+    color: #C9DCB3;
+    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#botao {
+    background-color: #C9DCB3;
+    color: #000000;
+    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botao:hover {
+    background-color: #95cbc6;
+    color: #d06ca3;
+}
+
+#mensagem {
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.Passa-tempo {
+    background-color: #b5bec646;
+    box-shadow: #0000005b 5px 5px 25px;
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    margin: 50px auto;
+}
+
+
+.Passa-tempo h2 { 
+    color: #1D3354;
+    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.Passa-tempo li {
+    color: #1D3354;
+    font-size: 25px;
+    margin: 25px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.Passa-tempo ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Passa-tempo img { 
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    
+}
+
+.Destinos {
+    background-color: #BFB1C1;
+    box-shadow: #000000 5px 5px 25px;
+    padding: 15px;
+    width: 100%;
+    max-width: 100%;
+    margin: 50px auto;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.Destinos table {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    border-collapse:collapse;
+    table-layout: fixed;
+    border: 2px solid #000000;
+}
+.Destinos th, .Destinos td {
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+    word-break: break-word; 
+}
+.Destinos img {
+    width: 400px;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 3px auto;
+    display: block;
+}
+.Destinos h2 {
+    color: #aa7f07;
+    text-shadow: #000 2px 2px;
+    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.Destinos .texto-tabela {
+    color: #aa7f07;
+    text-shadow: #000 2px 2px;
+    font-size: 40px;
+    text-align: justify;
+    font-family: 'Arcane', Times, serif;
+    
+}
+.Destinos .link-imagem a {
+    color: #000000;
+    font-size: 10px;
+    font-weight:normal;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff75;
+    border-radius: 5px;
+    text-shadow: none;
+    padding: 1px;
+}
+
+.Site {
+    background-color: #000000;
+    color: #95cbc6;
+    padding: 20px;
+    margin: 0 auto;
+    width: 700px;
+    box-shadow: #000000 5px 5px 25px;
+}
+.Site span {
+    color: #95cbc6;
+    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
+    font-size: 20px;
+    font-weight: bold 5px;
+}
+.Site h2 {
+    color: #aa7f07;
+    text-shadow: #fff 2px 2px;
+    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.Site img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid #364652;
+}
+
+.botao {
+    color: #95cbc6;
+    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
+    font-size: 20px;
+   
+}
+
+.botao p {
+    color: #000000;
+    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+/*
+ padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+
+
+
+
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #364652;
+}
+
+/*
+h2 {
+    color: #000;;
+    font-family: 'Arcane', Verdana, Geneva, Tahoma, serif;
+    
+}
+
+/* paleta de cores
+#364652
+#071108
+#BFB1C1
+#B5BEC6
+#000F18
+
+arcane:
+#c64e1b
+#8b582f
+#97647e
+#95cbc6
+#ab95cb
+colorideas.net
+*/
